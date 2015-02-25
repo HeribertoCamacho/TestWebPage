@@ -1,3 +1,11 @@
 #introimg {
 	height:100px;
 }
+
+html{
+	<img src="http://download.4-designer.com/files/20130831/Modern-geometric-abstract-background-05-vector-material-50792.jpg"/>
+}
+
+html > *{
+	z-index: 1;
+}
