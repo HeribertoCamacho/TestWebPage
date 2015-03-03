@@ -1,7 +1,60 @@
-#introimg {
-	height:100px;
+#header{
+	background-color: #000000;
+	position: fixed;
+	width: 100%;
+	z-index:1;
+}
+
+#nav-bar{
+	font-family: Lucida Console;
+	color: 	#5CADFF;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#nav-part{
+	display: inline;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+/*
+*{
+    border: 1px dashed #0000FF;
+}
+*/
+
+body{
+	color:	#5CADFF;
+	font-family: Lucida Console;
 }
 
 html{
-	background-image: "http://download.4-designer.com/files/20130831/Modern-geometric-abstract-background-05-vector-material-50792.jpg"
+	background-color:#000000;
+}
+
+.info{
+	float: left;
+	position: relative;
+	margin-top: 50px;
+	width: 50%;
+}
+
+.page-img{
+	float: right;
+	margin-top: 50px;
+}
+
+#photo-img{
+	width: 300px;
+}
+
+a{
+	text-decoration: none;
+	color: #5CADFF;
+}
+
+a:hover{
+	color: #0000FF;
 }
